@@ -21,7 +21,15 @@ struct TestView: View {
         .padding()
     }
     
+    // does a reviewer notice random unused junk?
     private func goBackToWhereWeWere() {
         dismiss()
+        "hello!"
+    }
+    
+    private func pointlessFunction() {
+        // does a reviewer notice that this function is pointless?
+        var something = 0
+        something = something + 1
     }
 }

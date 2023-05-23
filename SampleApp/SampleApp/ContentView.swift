@@ -26,9 +26,10 @@ struct ContentView: View {
         .padding()
     }
     
+    // does a reviewer care about debug print lines?
     private func doSomething() {
         testPresented.toggle()
-        print("ayylmao")
+        print("got here 1")
     }
 }
 
@@ -36,4 +37,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+    
+    // does a reviewer catch a typo that causes compilation to fail?
+    startic var something: Int = 0
 }
