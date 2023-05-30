@@ -14,6 +14,7 @@
 		ED91B87B2A1D38C3000244B0 /* SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED91B87A2A1D38C3000244B0 /* SampleAppTests.swift */; };
 		ED91B8852A1D38C4000244B0 /* SampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED91B8842A1D38C4000244B0 /* SampleAppUITests.swift */; };
 		ED91B8872A1D38C4000244B0 /* SampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED91B8862A1D38C4000244B0 /* SampleAppUITestsLaunchTests.swift */; };
+		ED91B8942A1D3CC1000244B0 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED91B8932A1D3CC1000244B0 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		ED91B8802A1D38C4000244B0 /* SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED91B8842A1D38C4000244B0 /* SampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppUITests.swift; sourceTree = "<group>"; };
 		ED91B8862A1D38C4000244B0 /* SampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED91B8932A1D3CC1000244B0 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				ED91B86C2A1D38C3000244B0 /* Assets.xcassets */,
 				ED91B86E2A1D38C3000244B0 /* SampleApp.entitlements */,
 				ED91B86F2A1D38C3000244B0 /* Preview Content */,
+				ED91B8932A1D3CC1000244B0 /* TestView.swift */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED91B8942A1D3CC1000244B0 /* TestView.swift in Sources */,
 				ED91B86B2A1D38C1000244B0 /* ContentView.swift in Sources */,
 				ED91B8692A1D38C1000244B0 /* SampleAppApp.swift in Sources */,
 			);
